@@ -26,13 +26,14 @@ fetch('https://weather-api138.p.rapidapi.com/weather?city_name=Delhi', options)
 
 
 
-const options = {
+const options={
 	method: 'GET',
 	headers: {
 		'x-rapidapi-key': 'b64cb317b2msh841ad4e2db87643p1746c0jsn9b5fea571941',
 		'x-rapidapi-host': 'weather-api138.p.rapidapi.com'
 	}
 };
+
 
 fetch('https://weather-api138.p.rapidapi.com/weather?city_name=Delhi', options)
     .then(response => response.json())
